@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>Admission Form</title>
+</head>
+<body>
+<center>
+<form name="Applicassion Form" method="post">
+<h1><b><center><u>Applicassion Form</u></center></b></h1>
+<table border="0" bgcolor="#ff6a6a">
+<tr align="center">
+<th><b>First Name</b></th>
+<td><input type="text"></td>
+</tr>
+<tr align="center">
+<th><b>Surname</b></th>
+<td><input type="text"></td>
+</tr>
+<tr align="center">
+<th><b>Mo.No</b></th>
+<td><input type="text"></td>
+</tr>
+<tr align="center">
+<th><b>Gender</b></th>
+<td><input type="radio" name="gender">Male
+<input type="radio" name="gender">Female</td>
+</tr>
+<tr align="center">
+<th><b>DOB</b></th>
+<td><select name="DOB">
+<option>1
+<option>2
+<option>3
+<option>4
+<option>5
+<option>6
+</option></select>
+<select name="DOB">
+<option>Jan
+<option>Feb
+<option>March
+<option>Aip
+<option>May
+<option>Jun
+</option></select>
+<select name="DOB">
+<option>1991
+<option>1992
+<option>1993
+<option>1994
+<option>1995
+<option>1996
+</option></select></td>
+</tr>
+<tr align="center">
+<th><b>Hobies</b></th>
+<td><input type="checkbox" name="hobi">Dancing
+<input type="checkbox" name="hobi">Singing
+<input type="checkbox" name="hobi">playing
+<input type="checkbox" name="hobi">Reading</td>
+</tr>
+<tr align="center">
+<th><b>Qulification</b></th>
+<td><select name="qulification">
+<option>BCA
+<option>BBA
+<option>BMS
+<option>MBA
+<option>MCA
+</select></td>
+</tr>
+<tr align="center">
+<th><b>Aditional Information</b></th>
+<td><textarea rows="3" cols="10"></textarea></td>
+</tr>
+<tr align="center">
+<TH></TH>
+<td><input type="submit" name="submit" value="submit">
+<input type="reset" name="cancle" value="cancle"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
